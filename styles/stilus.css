@@ -1,6 +1,8 @@
+
 header {
-    border-radius: 10px;
-    background-color: yellow;
+    border-radius: 10px;    
+    background-color: beige;
+    background-image: linear-gradient(to bottom left, white, lightgrey);
     padding: 10px;
     margin: 10px;
 }
@@ -23,48 +25,67 @@ nav {
     margin: 0px 10px 0px 0px;
     top: 0px;
     border-radius: 10px;
-    background-color: #FF6600;
+    background-color: #ff7b00;
+    background-image: linear-gradient(to bottom left, white, lightgrey);
 }
 
 nav ul {
     list-style-type: none;
-    margin: 0px;
-    padding: 15px 0px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #b45757;
+  
 }
 
 nav ul li {
-    padding: 0px 15px;;
+    padding: 0px 15px;
+    float: left;
 }
 
 nav ul li.active {
-    border-right: 5px solid blue;
+    border: 2px solid blue;
+    border: 2px s;
 }
 
 nav ul a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
     text-decoration: none;
-    color: blue;
 }
 
 div#content {
     display: table-cell;
     width: 100%;
+    height: auto;
     border-radius: 10px;
-    background-color: #99FFCC;
+    background-color: #fff599;
+    background-image: linear-gradient(to bottom right, white, lightgrey);
     padding: 15px;
 }
 
 div#content img{
-    float: right;
+    float: left;
     width: 20em;
     height: auto;
-    margin: 0 0 15px 15px;
-    padding: 3px;
-    border: 3px solid blue;
+    margin: 15 15 15px 15px;
+    padding: 10px;
+    border: 0px solid rgb(255, 136, 0);
+}
+div#content h1 {
+    text-align: center;
 }
 
 footer {
-    border-radius: 10px;
+    border-radius: 15px;
     margin: 10px;
-    padding: 5px 20px;
-    background-color: #CC99FF;
+    padding: 5px 10px;
+    background-color: #ffd699;
 }
+#left, #middle, #right {display: inline-block;  zoom: 1; vertical-align: top; font-size: 12px;}
+div#left {width: 50%;  float: left;}
+#middle {width: 50%; float: none; }
+#right {width: 50%; float: right;}
+kep div{width: 100%; }
