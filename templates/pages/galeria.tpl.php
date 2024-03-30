@@ -1,7 +1,7 @@
 
 
 
-<div id="galeria">
+<div id="galeria" style="display: inline; float:left; width=100%;">
 <h1>Galéria</h1>
 <?php
 $kepek = array();
@@ -16,24 +16,25 @@ while (($fajl = readdir($olvaso)) !== false) {
     }
 }
 closedir($olvaso);
-arsort($kepek);
+// arsort($kepek);
 
 foreach($kepek as $fajl => $datum)
 
 {
 ?>
 
-
+<div id="galeria" style="display: inline; float:left;>
 
 <a href="<?php echo $MAPPA.$fajl ?>">
-<img src="<?php echo $MAPPA.$fajl ?>" width="200">
-</a>
+<img src="<?php echo $MAPPA.$fajl ?>" width="150">
 
 <p>Név: <?php echo $fajl; ?></p>
 <p>Dátum: <?php echo date($DATUMFORMA, $datum); ?></p>
-
-
+</a>
+</div>
 <?php
 }
 ?></div>
+<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo ullam doloremque rerum iusto culpa dicta adipisci nobis fuga quae magnam, quas sint. Accusamus veniam ut, repellendus quis deserunt at!
 
+</div>

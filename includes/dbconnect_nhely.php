@@ -1,6 +1,6 @@
-<?php //adatbázis beállítás
+<?php
 $dbhostname = "localhost";
 $dbname="gyakorlat7";
-$dbuser="root";
+$dbuser="gyakorlat7";
 $dbjelszo="";
 ?>

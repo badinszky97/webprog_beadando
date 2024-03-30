@@ -13,7 +13,7 @@ header img {
 }
 
 div#wrapper {
-    margin: 10px;
+    margin: 10px; 
 }
 
 aside {
@@ -35,7 +35,7 @@ nav ul {
     padding: 0;
     overflow: hidden;
     background-color: #b45757;
-  
+    border-radius: 10px;
 }
 
 nav ul li {
