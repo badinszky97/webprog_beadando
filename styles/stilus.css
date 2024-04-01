@@ -89,3 +89,12 @@ div#left {width: 50%;  float: left;}
 #middle {width: 50%; float: none; }
 #right {width: 50%; float: right;}
 kep div{width: 100%; }
+
+
+.uzenet
+{
+    margin:10px;
+    border-style: dashed;
+    border-color: blue;
+    border-width: 1px;
+}

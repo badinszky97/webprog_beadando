@@ -15,7 +15,7 @@
     } 
 </script>
 
-<form class="form-horizontal" name="uzenetkuldo" action="/web/?oldal=uzenet_ment" onsubmit="return validateForm()" method="post">
+<form class="form-horizontal" name="uzenetkuldo" action="/?oldal=uzenet_ment" onsubmit="return validateForm()" method="post">
 <fieldset>
 
 <!-- Form Name -->

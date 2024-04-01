@@ -1,3 +1,4 @@
+
 <?php
 if(isset($_SESSION['login'])) {
     // bejelentkezés dupla ellenőrzése
@@ -12,17 +13,21 @@ if(isset($_SESSION['login'])) {
         $sth = $dbh->prepare($sqlSelect);
         //$row = $sth->fetch(PDO::FETCH_ASSOC);
         $sth->execute();
+
+        print("<div class=\"row\">");
         while ($row = $sth->fetch(PDO::FETCH_ASSOC)) {
             $data = $row["idopont"] . "\t" . $row["nev"] . "\t" . $row["uzenet"] . "\n";
             //print $data;
 
-            print("<div class=\"col-md-4\">");
+            print("<div class=\"col-ld-3 uzenet\">");
                 print("Időpont: " . $row["idopont"] . "</br>");
                 print("Név: " . $row["nev"] . "</br>");
                 print("Üzenet: " . $row["uzenet"] . "</br>");
             print("</div>");
 
         }
+        print("</div>");
+
     }
     catch (PDOException $e) {
         $errormessage = "Hiba: ".$e->getMessage();
