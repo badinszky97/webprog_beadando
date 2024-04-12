@@ -57,7 +57,7 @@ nav ul a {
 }
 
 div#content {
-    display: table-cell;
+    display: table;
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -97,4 +97,8 @@ kep div{width: 100%; }
     border-style: dashed;
     border-color: blue;
     border-width: 1px;
+}
+#terkep
+{
+    width:100%;
 }
