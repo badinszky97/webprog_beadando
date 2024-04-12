@@ -20,6 +20,7 @@
 			<h1><?= $fejlec['cim'] ?></h1>		<?php if (isset($fejlec['motto'])) { ?><h2>
 			<?= $fejlec['motto'] ?></h2><?php } ?> 
 			<?php if(isset($_SESSION['login'])) { ?>Bejlentkezve: <strong><?= $_SESSION['csn']." ".$_SESSION['un']." (".$_SESSION['login'].")" ?></strong><?php } ?>
+			
 		</div>
 	
     
@@ -45,8 +46,23 @@
     </div>
     <footer>  <?php if(isset($lablec['ceg'])) { ?><?= $lablec['ceg']; ?><?php } ?> &nbsp;
         <?php if(isset($lablec['copyright'])) { ?>&copy;&nbsp;<?= $lablec['copyright'] ?> <?php } ?>
-		
+		<div id="ajax_div"></div>
       
     </footer>
+
+	<script>
+
+		function ajax_feladat() {
+		var xhttp = new XMLHttpRequest();
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+			document.getElementById("ajax_div").innerHTML = this.responseText;
+			}
+		};
+		xhttp.open("GET", "ajax_betoltes.txt", true);
+		xhttp.send();
+		}
+		ajax_feladat();
+	</script>
 </body>
 </html>
