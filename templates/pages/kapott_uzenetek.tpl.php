@@ -34,6 +34,6 @@ if(isset($_SESSION['login'])) {
     }      
 }
 else {
-    print("Ehhez be kell jelenzkezni.");
+    print("Ehhez be kell jelentkezni.");
 }
 ?>

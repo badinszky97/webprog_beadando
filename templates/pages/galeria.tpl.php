@@ -1,5 +1,10 @@
 
+<?php if(isset($_SESSION['login'])) { ?>
+   <a href ='.?oldal=ujkep'> Új kép feltöltése</a>
+  
 
+
+<?php } ?>
 
 <div id="galeria" style="display: inline; float:left; width=100%;">
 <h1>Galéria</h1>
@@ -34,7 +39,4 @@ foreach($kepek as $fajl => $datum)
 </div>
 <?php
 }
-?></div>
-<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio illo ullam doloremque rerum iusto culpa dicta adipisci nobis fuga quae magnam, quas sint. Accusamus veniam ut, repellendus quis deserunt at!
-
-</div>
+?>

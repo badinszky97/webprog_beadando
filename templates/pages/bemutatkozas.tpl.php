@@ -1,9 +1,11 @@
 <h1><span>Bemutatkozás</span></h1>
 <img src="./images/fonok.jpg">
-<h3>Mi a Lorem Ipsum?</h3>
-<p>A Lorem Ipsum egy egyszerû szövegrészlete, szövegutánzata a betûszedõ és nyomdaiparnak. A Lorem Ipsum az 1500-as évek óta standard szövegrészletként szolgált az iparban; mikor egy ismeretlen nyomdász összeállította a betûkészletét és egy példa-könyvet vagy szöveget nyomott papírra, ezt használta. Nem csak 5 évszázadot élt túl, de az elektronikus betûkészleteknél is változatlanul megmaradt. Az 1960-as években népszerûsítették a Lorem Ipsum részleteket magukbafoglaló Letraset lapokkal, és legutóbb softwarekkel mint például az Aldus Pagemaker.</p>
-<h3>Honnan származik?</h3>
-<p>A hiedelemmel ellentétben a Lorem Ipsum nem véletlenszerû szöveg. Gyökerei egy Kr. E. 45-ös latin irodalmi klasszikushoz nyúlnak. Richarrd McClintock a virginiai Hampden-Sydney egyetem professzora kikereste az ismeretlenebb latin szavak közül az egyiket (consectetur) egy Lorem Ipsum részletbõl, és a klasszikus irodalmat átkutatva vitathatatlan forrást talált. A Lorem Ipsum az 1.10.32 és 1.10.33-as de Finibus Bonoruem et Malorum részleteibõl származik (A Jó és Rossz határai - Cicero), Kr. E. 45-bõl. A könyv az etika elméletét tanulmányozza, ami nagyon népszerû volt a reneszánsz korban. A Lorem Ipsum elsõ sora, Lorem ipsum dolor sit amet.. a 1.10.32-es bekezdésbõl származik.</p>
+<h3>Mi inspirál?</h3>
+<hr>
+<p>Szakácstudományomat otthoni túlélési tapasztalataimból fejlesztettem ki. A kényszerű felismerések sorozata, hogy nincs itthon semmi ennivaló, néhány napos koplalás után arra sarkallt, hogy (t)egyek már végre valamit.</p>
+<p>A több évnyi felgyülemlett tapasztalatomat ezúton megosztom minden otthon éhező sorstársammal.</p>
+
+<p>Őszintén remélem, hogy az itt közzétett receptek elkészítése segít túlélni azt az időszakot, amíg a hamburgeres vagy az üzemi konyha zárva tart.</p>
 
 
         

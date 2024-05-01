@@ -30,8 +30,11 @@ $oldalak = array(
     'belep' => array('fajl' => 'belep', 'szoveg' => '', 'menun' => array(0,0)),
     'regisztral' => array('fajl' => 'regisztral', 'szoveg' => '', 'menun' => array(0,0)),
     'galeria' => array('fajl' => 'galeria', 'szoveg' => 'Galéria', 'menun' => array(1,1)),
-    
-
+    'recept1' => array('fajl' => 'recept1', 'szoveg' => 'Recept1', 'menun' => array(0,0)),
+    'recept2' => array('fajl' => 'recept2', 'szoveg' => 'Recept1', 'menun' => array(0,0)),
+    'recept3' => array('fajl' => 'recept3', 'szoveg' => 'Recept1', 'menun' => array(0,0)),
+    'recept4' => array('fajl' => 'recept4', 'szoveg' => 'Recept1', 'menun' => array(0,0)),
+    'ujkep' => array('fajl' => 'ujkep', 'szoveg' => 'Képfeltöltés', 'menun' => array(0,0))
 );
 
 $hiba_oldal = array ('fajl' => '404', 'szoveg' => 'A keresett oldal nem található!');
