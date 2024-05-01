@@ -45,15 +45,15 @@ else { ?>
   <div class="grid-item"> 	<p>Készítsd el otthon a kedvedre való, legfinomabb kenyeret mindössze két óra alatt!</p></div>
    
           
-  <div class="grid-item"><img src="./images/rozskenyer.jpg"style="height:100px; width:auto;"   > </div>
+  <div class="grid-item"><img src="./images/rantotta.jpg"style="height:100px; width:auto;"   > </div>
   <div class="grid-item"><a href ='.?oldal=recept2'><h5>Rántotta</h5>  </a></div> 
   <div class="grid-item"> 	<p>Ezt a receptet minden agglegénynek ismernie kell!</p></div>
             
-  <div class="grid-item"><img src="./images/rozskenyer.jpg"style="height:100px; width:auto;"   > </div>
+  <div class="grid-item"><img src="./images/teakeksz.jpeg"style="height:100px; width:auto;"   > </div>
   <div class="grid-item"><a href ='.?oldal=recept3'><h5> Tea keksszel </h5>  </a></div> 
   <div class="grid-item"> 	<p>Szingliknek ideális vendégváró menü!</p></div>
             
-  <div class="grid-item"><img src="./images/rozskenyer.jpg"style="height:100px; width:auto;"   > </div>
+  <div class="grid-item"><img src="./images/zsiros.jpg"style="height:100px; width:auto;"   > </div>
   <div class="grid-item"><a href ='.?oldal=recept4'><h5> Zsíroskenyér</h5>  </a></div> 
   <div class="grid-item"> 	<p>A maradékot sem dobjuk ki.</p></div>
    

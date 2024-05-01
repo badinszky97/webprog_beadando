@@ -4,7 +4,7 @@ if(isset($_SESSION['login'])) {
     try {?>
 
     <h2> Tea keksszel </h2>
-<img src="./images/chef.jpeg">
+<img src="./images/teakeksz.jpeg">
 
 
 <?php if(!isset($_SESSION['login'])) { ?>
