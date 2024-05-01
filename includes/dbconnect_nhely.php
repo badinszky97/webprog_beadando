@@ -2,5 +2,5 @@
 $dbhostname = "localhost";
 $dbname="gyakorlat7";
 $dbuser="gyakorlat7";
-$dbjelszo="";
+$dbjelszo="Nhelyjelszo_71";
 ?>
