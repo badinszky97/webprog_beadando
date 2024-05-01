@@ -10,11 +10,6 @@
     <h3>A legjobb recepjeink, kedves <?= $_SESSION['login']?> !</h3>
 
 <ul>
-    <li>1. recept </li>
-    <li>2. recept </li>    
-    <li>3. recept </li>    
-    <li>4. recept </li>    
-    <li>5. recept </li>
 
 
 </ul>
